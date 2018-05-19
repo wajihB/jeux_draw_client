@@ -1,6 +1,5 @@
-package azerty.com;
+package cli;
 
-/*
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -25,7 +24,7 @@ public class Client {
          /*
          * les informations du serveur ( port et adresse IP ou nom d'hote
          * 127.0.0.1 est l'adresse local de la machine
-         
+         */
          clientSocket = new Socket("127.0.0.1",5300);
    
          //flux pour envoyer
@@ -71,4 +70,3 @@ public class Client {
       }
   }
 }
-*/
